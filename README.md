@@ -15,7 +15,7 @@ Switch between DNS providers instantly with a clean, modern interface.
 [![GitHub forks](https://img.shields.io/github/forks/arelove/dns-switcher?style=social)](https://github.com/arelove/dns-switcher/network/members)
 [![GitHub issues](https://img.shields.io/github/issues/arelove/dns-switcher)](https://github.com/arelove/dns-switcher/issues)
 
-[Download](../../releases) • [Features](#features ✨) • [Screenshots](#screenshots 📸) • [Documentation](./docs/)
+[Download](../../releases) • [Features](#features) • [Screenshots](#screenshots) • [Documentation](./docs/)
 
 </div>
 
@@ -32,7 +32,7 @@ Changing DNS settings manually through Windows network settings is tedious. This
 
 Perfect for developers, privacy-conscious users, or anyone who needs to switch DNS frequently. 🔒
 
-## Screenshots 📸
+## Screenshots📸
 
 <div align="center">
 <table>
@@ -52,7 +52,7 @@ Perfect for developers, privacy-conscious users, or anyone who needs to switch D
 <em>Mini mode for quick access, Micro mode for always-on-top widget</em> ✨
 </div>
 
-## Features ✨
+## Features✨
 
 **Quick Presets**  
 - Pre-configured DNS providers ready to use 🔧  
