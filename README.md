@@ -1,8 +1,8 @@
 # DNS Switcher
 
-A lightweight, modern desktop app for managing DNS settings on Windows. Switch between DNS providers instantly with a clean interface and system tray integration.
+A lightweight DNS switcher for Windows with system tray and mini app integration. Switch between DNS providers instantly with a clean, modern interface.
 
-![DNS Switcher Banner](./docs/images/banner.png)
+![DNS Switcher Banner](./docs/images/logo.png)
 <!-- Replace with your banner image: 1200x400px recommended -->
 
 ## Why DNS Switcher?
@@ -13,6 +13,7 @@ Changing DNS settings manually through Windows network settings is tedious. This
 - **Custom presets** for your own DNS servers
 - **System tray** for quick access
 - **Mini mode** that stays out of your way
+- **Micro mode** - ultra-compact always-on-top widget
 - **Dark/Light theme** support
 
 Perfect for developers, privacy-conscious users, or anyone who needs to switch DNS frequently.
@@ -20,15 +21,23 @@ Perfect for developers, privacy-conscious users, or anyone who needs to switch D
 ## Screenshots
 
 <div align="center">
-  <img src="./docs/images/screenshot-main.png" alt="Main Window" width="400"/>
-  <img src="./docs/images/screenshot-mini.png" alt="Mini Mode" width="200"/>
+  
+### Main Window
+<img src="./docs/images/screenshot-main.png" alt="Main Window" width="500"/>
+
+### Compact Modes
+<img src="./docs/images/screenshot-mini.png" alt="Mini Mode" width="240"/>
+<img src="./docs/images/screenshot-micro.png" alt="Micro Mode" width="120"/>
+
+*Mini mode for quick access, Micro mode for always-on-top widget*
+
 </div>
 
 <!-- 
 Add your screenshots to ./docs/images/:
-- screenshot-main.png (main window)
-- screenshot-mini.png (mini mode)
-- screenshot-tray.png (system tray, optional)
+- screenshot-main.png (main window, ~800-1000px wide)
+- screenshot-mini.png (mini mode, ~400-600px wide)
+- screenshot-micro.png (micro mode, keep original small size ~200-300px)
 -->
 
 ## Features
@@ -49,6 +58,8 @@ Add your screenshots to ./docs/images/:
 
 - Shows current active DNS
 - Real-time status updates
+- Mini mode for compact view
+- Micro mode - ultra-compact widget that stays on top
 - Minimal resource usage (~20MB RAM)
 - Runs in the background via system tray
 
@@ -70,6 +81,7 @@ Grab the latest version from the [Releases](../../releases) page.
 2. Click a DNS preset to apply it instantly
 3. Use the system tray icon for quick access
 4. Switch to mini mode for a compact view
+5. Or use micro mode for an always-on-top widget
 
 That's it. No configuration needed.
 
@@ -123,7 +135,7 @@ DNS changes are applied per network adapter, not globally. This is actually bett
 
 ## Contributing
 
-Found a bug? Have an idea
+Found a bug? Have an idea?
 
 1. Check existing [issues](../../issues) first
 2. Open a new issue with details
