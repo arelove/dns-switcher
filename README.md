@@ -1,13 +1,8 @@
-<div align="center">
-<img src="./docs/images/logo.png" alt="DNS Switcher Logo" width="120"/>
-    DNS Switcher
-    A lightweight DNS switcher for Windows with system tray and mini app integration
-    Switch between DNS providers instantly with a clean, modern interface.
-    Show Image
-    Show Image
-    Show Image
-    Download • Features • Screenshots • Documentation
-</div>
+# DNS Switcher
+
+A lightweight DNS switcher for Windows with system tray and mini app integration. Switch between DNS providers instantly with a clean, modern interface.
+
+![DNS Switcher Banner](./docs/images/logo.png)
 
 ## Why DNS Switcher?
 
@@ -74,7 +69,7 @@ Mini mode for quick access, Micro mode for always-on-top widget
 
 Grab the latest version from the [Releases](../../releases) page.
 
-**Windows 10/11 Required** | 4MB installer
+**Windows 10/11 Required** | ~5MB installer
 
 ## Quick Start
 
