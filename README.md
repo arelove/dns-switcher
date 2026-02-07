@@ -1,8 +1,26 @@
 # DNS Switcher
 
-A lightweight DNS switcher for Windows with system tray and mini app integration. Switch between DNS providers instantly with a clean, modern interface.
 
-![DNS Switcher Banner](./docs/images/logo.png)
+Readme · MD
+Copy
+
+<div align="center">
+
+<img src="./docs/images/logo.png" alt="DNS Switcher Logo" width="120"/>
+
+# DNS Switcher
+
+*A lightweight DNS switcher for Windows with system tray and mini app integration*
+
+Switch between DNS providers instantly with a clean, modern interface.
+
+[![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?logo=windows)](https://github.com/YOUR_USERNAME/dns-switcher/releases)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/YOUR_USERNAME/dns-switcher)](https://github.com/YOUR_USERNAME/dns-switcher/releases)
+
+[Download](../../releases) • [Features](#features) • [Screenshots](#screenshots) • [Documentation](./docs/)
+
+</div>
 
 ## Why DNS Switcher?
 
