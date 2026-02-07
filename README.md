@@ -32,18 +32,18 @@ Perfect for developers, privacy-conscious users, or anyone who needs to switch D
 Screenshots
 <div align="center">
 <table>
-<tr>
-<td align="center" width="50%">
-<b>Main Window</b><br/>
-<img src="./docs/images/screenshot-main.png" alt="Main Window" width="100%"/>
-</td>
-<td align="center" width="50%">
-<b>Compact Modes</b><br/>
-<img src="./docs/images/screenshot-mini.png" alt="Mini Mode" width="70%"/>
-<br/><br/>
-<img src="./docs/images/screenshot-micro.png" alt="Micro Mode" width="35%"/>
-</td>
-</tr>
+    <tr>
+        <td align="center" width="60%">
+            <b>Main Window</b><br/>
+            <img src="./docs/images/screenshot-main.png" alt="Main Window" width="100%"/>
+        </td>
+        <td align="center" width="40%">
+            <b>Compact Modes</b><br/>
+            <img src="./docs/images/screenshot-mini.png" alt="Mini Mode" width="100%"/>
+            <br/><br/>
+            <img src="./docs/images/screenshot-micro.png" alt="Micro Mode" width="100%"/>
+        </td>
+    </tr>
 </table>
 Mini mode for quick access, Micro mode for always-on-top widget
 </div>
