@@ -10,7 +10,7 @@ Switch between DNS providers instantly with a clean, modern interface.
 
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?logo=windows)](https://github.com/YOUR_USERNAME/dns-switcher/releases)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/YOUR_USERNAME/dns-switcher)](https://github.com/YOUR_USERNAME/dns-switcher/releases)
+[![GitHub release](https://img.shields.io/github/v/release/arelove/dns-switcher)](https://github.com/arelove/dns-switcher/releases)
 
 [Download](../../releases) • [Features](#features) • [Screenshots](#screenshots) • [Documentation](./docs/)
 
