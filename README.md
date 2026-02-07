@@ -1,5 +1,3 @@
-# DNS Switcher
-
 <div align="center">
 
 <img src="./docs/images/logo.png" alt="DNS Switcher Logo" width="256"/>
