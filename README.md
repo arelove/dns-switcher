@@ -1,12 +1,8 @@
 # DNS Switcher
 
-
-Readme · MD
-Copy
-
 <div align="center">
 
-<img src="./docs/images/logo.png" alt="DNS Switcher Logo" width="120"/>
+<img src="./docs/images/logo.png" alt="DNS Switcher Logo" width="256"/>
 
 # DNS Switcher
 
