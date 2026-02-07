@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./docs/images/logo.png" alt="DNS Switcher Logo" width="120"/>
+<img src="./docs/images/logo.png" alt="DNS Switcher Logo" width="512"/>
     DNS Switcher
     A lightweight DNS switcher for Windows with system tray and mini app integration
     Switch between DNS providers instantly with a clean, modern interface.
