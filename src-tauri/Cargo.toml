@@ -1,0 +1,150 @@
+# ============================================================================
+# DNS Changer - Professional DNS Management Tool for Windows
+# ============================================================================
+
+[package]
+name = "dns-switcher"
+version = "1.0.0"
+description = "Modern DNS Manager with DoH support for Windows 10/11"
+authors = ["Ar3love <your.email@example.com>"]
+license = "MIT"
+repository = "https://github.com/arelove/dns-changer"
+homepage = "https://github.com/arelove/dns-changer"
+documentation = "https://github.com/arelove/dns-changer#readme"
+keywords = ["dns", "network", "windows", "doh", "utility"]
+categories = ["network-programming", "command-line-utilities"]
+edition = "2021"
+rust-version = "1.70"
+readme = "README.md"
+
+# ============================================================================
+# Build Dependencies
+# ============================================================================
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+# ============================================================================
+# Runtime Dependencies
+# ============================================================================
+
+[dependencies]
+# Tauri Framework - Core application framework
+tauri = { version = "2", features = ["tray-icon", "protocol-asset", "devtools"] }
+tauri-plugin-shell = "2"
+
+# Serialization - JSON handling
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# Error Handling - Professional error management
+thiserror = "1"
+anyhow = "1"
+
+dirs = "5.0"
+
+# Async Runtime - For async DNS operations
+tokio = { version = "1", features = [
+    "full",
+    "rt-multi-thread",
+    "macros",
+    "time",
+    "net",
+    "io-util",
+    "sync"
+] }
+
+# Utilities
+regex = "1"
+chrono = { version = "0.4", features = ["serde"] }
+
+# Logging - Professional logging system
+log = "0.4"
+env_logger = "0.11"
+
+# ============================================================================
+# Windows-Specific Dependencies
+# ============================================================================
+
+[target.'cfg(windows)'.dependencies]
+windows = { version = "0.58", features = [
+    "Win32_Foundation",
+    "Win32_NetworkManagement_IpHelper",
+    "Win32_NetworkManagement_Ndis",
+    "Win32_System_Registry",
+    "Win32_System_SystemInformation",
+    "Win32_Networking_WinSock",
+    "Win32_Security",
+    "Win32_System_Threading",
+] }
+
+# ============================================================================
+# Development Dependencies
+# ============================================================================
+
+[dev-dependencies]
+criterion = "0.5"
+mockito = "1"
+
+# ============================================================================
+# Release Profile - Production Optimization
+# ============================================================================
+
+[profile.release]
+panic = "abort"              # Оставляем для уменьшения размера
+codegen-units = 1            # Оставляем для максимальной оптимизации
+lto = true                   # Оставляем LTO
+opt-level = 3              # ✅ ИЗМЕНЕНО: "z" -> "3" (оптимизация по скорости, не по размеру)
+strip = true                 # Оставляем
+overflow-checks = true       # ✅ ИЗМЕНЕНО: false -> true (включаем проверки)
+debug = false                
+incremental = false
+
+# ============================================================================
+# Development Profile - Fast Compilation
+# ============================================================================
+
+[profile.dev]
+opt-level = 0                # No optimization for faster compilation
+debug = true                 # Include debug symbols
+incremental = true           # Enable incremental compilation
+overflow-checks = true       # Enable overflow checks
+
+# ============================================================================
+# Testing Profile
+# ============================================================================
+
+[profile.test]
+opt-level = 0
+debug = true
+overflow-checks = true
+
+# ============================================================================
+# Benchmarking Profile
+# ============================================================================
+
+[profile.bench]
+inherits = "release"
+debug = true
+
+# ============================================================================
+# Windows Resource Metadata
+# ============================================================================
+
+[package.metadata.winres]
+OriginalFilename = "dns-changer.exe"
+LegalCopyright = "Copyright © 2026 Ar3love. All rights reserved."
+ProductName = "DNS Changer"
+FileDescription = "Modern DNS Management Tool for Windows"
+CompanyName = "Ar3love"
+ProductVersion = "1.0.0"
+FileVersion = "1.0.0"
+InternalName = "dns-changer"
+
+# ============================================================================
+# Documentation Settings
+# ============================================================================
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]

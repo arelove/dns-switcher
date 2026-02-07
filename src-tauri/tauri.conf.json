@@ -1,0 +1,118 @@
+{
+	"$schema": "https://schema.tauri.app/config/2.0.0",
+	"productName": "DNS Changer",
+	"version": "1.0.0",
+	"identifier": "com.ar3love.dnschanger",
+	"build": {
+		"frontendDist": "../build",
+		"devUrl": "http://localhost:5173",
+		"beforeDevCommand": "npm run dev",
+		"beforeBuildCommand": "npm run build"
+	},
+	"bundle": {
+		"active": true,
+		"targets": [
+			"nsis",
+			"msi"
+		],
+		"icon": [
+			"icons/32x32.png",
+			"icons/128x128.png",
+			"icons/128x128@2x.png",
+			"icons/icon.icns",
+			"icons/icon.ico"
+		],
+		"publisher": "Ar3love",
+		"category": "Utility",
+		"shortDescription": "Modern DNS Manager for Windows",
+		"longDescription": "Professional DNS management tool with DoH support, network adapter control, and custom DNS presets for Windows 10/11.",
+		"homepage": "https://github.com/arelove/dns-changer",
+		"licenseFile": "../LICENSE",
+		"copyright": "Copyright © 2026 Ar3love. All rights reserved.",
+		"windows": {
+			"certificateThumbprint": null,
+			"digestAlgorithm": "sha256",
+			"timestampUrl": "http://timestamp.digicert.com",
+			"allowDowngrades": false,
+			"webviewInstallMode": {
+				"type": "embedBootstrapper"
+			},
+			"nsis": {
+				"installerIcon": "icons/icon.ico",
+				"sidebarImage": "icons/installerSidebarImage.bmp",
+				"installMode": "perMachine",
+				"languages": [
+					"English",
+					"Russian"
+				],
+				"displayLanguageSelector": true,
+				
+				"installerHooks": null
+			}
+		}
+	},
+	"app": {
+		"windows": [
+			{
+				"label": "main",
+				"title": "DNS Changer",
+				"width": 1200,
+				"height": 800,
+				"minWidth": 800,
+				"minHeight": 600,
+				"resizable": true,
+				"fullscreen": false,
+				"decorations": false,
+				"center": true,
+				"transparent": false,
+				"alwaysOnTop": false,
+				"skipTaskbar": false,
+				"theme": null,
+				"titleBarStyle": "Overlay",
+				"hiddenTitle": true,
+				"acceptFirstMouse": false,
+				"tabbingIdentifier": null,
+				"userAgent": null,
+				"visible": true,
+				"focus": true,
+				"maximized": false,
+				"url": "/"
+			},
+			{
+				"label": "mini",
+				"title": "DNS Switcher - Mini",
+				"width": 320,
+				"height": 480,
+				"minWidth": 100,
+				"minHeight": 50,
+				"maxWidth": 400,
+				"maxHeight": 600,
+				"resizable": true,
+				"fullscreen": false,
+				"decorations": false,
+				"transparent": true,
+				"alwaysOnTop": true,
+				"skipTaskbar": false,
+				"visible": false,
+				"url": "/mini"
+				}
+		],
+		"security": {
+			"csp": null,
+			"assetProtocol": {
+				"enable": true
+			},
+			"capabilities": [
+				"default"
+			]
+		},
+		"trayIcon": {
+			"id": "main-tray",
+			"iconPath": "icons/icon.png",
+			"iconAsTemplate": true,
+			"menuOnLeftClick": false,
+			"tooltip": "DNS Switcher"
+			},
+		"withGlobalTauri": false
+	}
+}

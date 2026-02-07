@@ -1,0 +1,39 @@
+{
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"files.associations": {
+		"*.svelte": "svelte"
+	},
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	},
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer",
+		"editor.formatOnSave": true
+	},
+	"rust-analyzer.checkOnSave.command": "clippy",
+	"rust-analyzer.cargo.features": "all",
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/.svelte-kit": true,
+		"**/node_modules": true,
+		"src-tauri/target": true
+	},
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/build": true,
+		"**/dist": true,
+		"**/.svelte-kit": true,
+		"src-tauri/target": true
+	},
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"typescript.enablePromptUseWorkspaceTsdk": true
+}
