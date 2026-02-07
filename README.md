@@ -1,9 +1,13 @@
-# DNS Switcher
-
-A lightweight DNS switcher for Windows with system tray and mini app integration. Switch between DNS providers instantly with a clean, modern interface.
-
-![DNS Switcher Banner](./docs/images/logo.png)
-<!-- Replace with your banner image: 1200x400px recommended -->
+<div align="center">
+<img src="./docs/images/logo.png" alt="DNS Switcher Logo" width="120"/>
+    DNS Switcher
+    A lightweight DNS switcher for Windows with system tray and mini app integration
+    Switch between DNS providers instantly with a clean, modern interface.
+    Show Image
+    Show Image
+    Show Image
+    Download • Features • Screenshots • Documentation
+</div>
 
 ## Why DNS Switcher?
 
@@ -14,31 +18,28 @@ Changing DNS settings manually through Windows network settings is tedious. This
 - **System tray** for quick access
 - **Mini mode** that stays out of your way
 - **Micro mode** - ultra-compact always-on-top widget
-- **Dark/Light theme** support
+- **Dark/Light theme** support 50/50
 
 Perfect for developers, privacy-conscious users, or anyone who needs to switch DNS frequently.
 
-## Screenshots
-
+Screenshots
 <div align="center">
-  
-### Main Window
-<img src="./docs/images/screenshot-main.png" alt="Main Window" width="500"/>
-
-### Compact Modes
-<img src="./docs/images/screenshot-mini.png" alt="Mini Mode" width="240"/>
-<img src="./docs/images/screenshot-micro.png" alt="Micro Mode" width="120"/>
-
-*Mini mode for quick access, Micro mode for always-on-top widget*
-
+<table>
+<tr>
+<td align="center" width="50%">
+<b>Main Window</b><br/>
+<img src="./docs/images/screenshot-main.png" alt="Main Window" width="100%"/>
+</td>
+<td align="center" width="50%">
+<b>Compact Modes</b><br/>
+<img src="./docs/images/screenshot-mini.png" alt="Mini Mode" width="70%"/>
+<br/><br/>
+<img src="./docs/images/screenshot-micro.png" alt="Micro Mode" width="35%"/>
+</td>
+</tr>
+</table>
+Mini mode for quick access, Micro mode for always-on-top widget
 </div>
-
-<!-- 
-Add your screenshots to ./docs/images/:
-- screenshot-main.png (main window, ~800-1000px wide)
-- screenshot-mini.png (mini mode, ~400-600px wide)
-- screenshot-micro.png (micro mode, keep original small size ~200-300px)
--->
 
 ## Features
 
@@ -73,7 +74,7 @@ Add your screenshots to ./docs/images/:
 
 Grab the latest version from the [Releases](../../releases) page.
 
-**Windows 10/11 Required** | ~5MB installer
+**Windows 10/11 Required** | 4MB installer
 
 ## Quick Start
 
