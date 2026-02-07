@@ -29,7 +29,8 @@ Changing DNS settings manually through Windows network settings is tedious. This
 
 Perfect for developers, privacy-conscious users, or anyone who needs to switch DNS frequently.
 
-Screenshots
+## Screenshots
+
 <div align="center">
 <table>
     <tr>
