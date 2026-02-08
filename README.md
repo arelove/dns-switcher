@@ -179,4 +179,3 @@ Built something cool using this project? Feel free to share — I'd love to hear
 Please star it on GitHub ⭐ or share it with anyone annoyed by manual DNS changes!
 
 Questions, bugs, ideas → [Open an issue](https://github.com/arelove/dns-switcher/issues)
-```
